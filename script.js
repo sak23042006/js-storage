@@ -7,8 +7,6 @@ localStorage.setItem("country" , "India")
 localStorage.setItem("state" , "Tamil Nadu")
 console.log(localStorage);
 
-
-
 //Challenge 2: Get the users data stored on your browser's localStorage using the getItem() method and print the localStorage in the console.
 
 console.log(localStorage.getItem("firstName"))
