@@ -1,19 +1,23 @@
 //Challenge 1: Store the user's first name, last name, age, country, and state in your browser's localStorage using the setItem() method and print the localStorage in the console.
 
-var obj = {
-  firstName : "Arun" ,
-  lastName : " kumar",
-  age : 17 ,
-  country : "India",
-  state : "Tamil Nadu"
-}
-console.log(obj.forEach(e => {
+localStorage.setItem("firstName" , "Arun")
+localStorage.setItem("lastName" , " kumar")
+localStorage.setItem("age" , "17")
+localStorage.setItem("country" , "India")
+localStorage.setItem("state" , "Tamil Nadu")
+console.log(localStorage);
 
-  localStorage.setItem(JSON.stringify(e))
-  
-}));
+
 
 //Challenge 2: Get the users data stored on your browser's localStorage using the getItem() method and print the localStorage in the console.
+
+console.log(localStorage.getItem("firstName"))
+// localStorage.getItem("lastName")
+// localStorage.getItem("age")
+// localStorage.getItem("country")
+// localStorage.getItem("state")
+// localStorage.clear()
+// console.log(localStorage);
 
 //Challenge 3: Using removeItem() method, remove the "state" data stored in your browser's localStorage and print the localStorage in the console.
 
